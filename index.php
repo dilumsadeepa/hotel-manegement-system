@@ -34,7 +34,18 @@
         </div>
 
         <div class="hero-book">
-            
+            <form action="">
+                <div class="input-box">
+                    <input type="date" name="ardate" id="ardate" class="input-nonout">
+                </div>
+                <div class="input-box">
+                    <input type="date" name="dedate" id="dedate" class="input-nonout">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="numperson" id="numperson" class="input-nonout">
+                </div>
+                <button type="button" class="btn-primay">Find now</button>
+            </form>
         </div>
     </div>
 

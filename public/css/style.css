@@ -15,6 +15,18 @@ a{
   font-weight: 400;
 }
 
+.btn-primay{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: chartreuse;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 14px;
+  border: none;
+}
+
 
 .hero{
   width: 100%;
@@ -70,6 +82,11 @@ a{
   .hero-dis p{
     font-size: 50px;
     font-weight: 500;
+  }
+
+  .hero-book{
+    width: 80%;
+
   }
 
   
