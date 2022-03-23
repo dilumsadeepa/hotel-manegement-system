@@ -44,7 +44,7 @@
                 <div class="input-box">
                     <input type="number" name="numperson" id="numperson" class="input-nonout">
                 </div>
-                <button type="button" class="btn-primay">Find now</button>
+                <button type="button" class="btn btn-primay">Find now</button>
             </form>
         </div>
     </div>
