@@ -13,25 +13,44 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">LOCATION</a>
+                </li>
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FACILITIES</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="#">WEDDING</a>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    ACCOMODATION
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">LUXURY ROOM</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">FAMILY ROOMS</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="#">LUXURY SUITE</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="#">JUNIOR SUITE</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">MOUNTBATTEN SUITE</a></li>
+                    <li><hr class="dropdown-divider"></li>
+
                 </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" aria-current="page" href="#">OFFERS</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+                </li>
+
             </ul>
         </div>
 
@@ -57,5 +76,8 @@
         background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    }
+    .navbar navbar-expand-lg navbar-dark navbox{
+        width: 100%;
     }
 </style>
