@@ -2,8 +2,7 @@
   <div class="container-fluid">
       
         <a class="navbar-brand" href="#">
-            <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Hottel
+            <img src="public/img/logo.png" alt="" width="130px">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +21,10 @@
                 <a class="nav-link active" aria-current="page" href="#">FACILITIES</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">WEDDING</a>
+                <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="accomodation.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     ACCOMODATION
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -75,9 +74,29 @@
         background: #2c3e50;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Libre Bodoni', serif;
+    }
+    .nav-item{
+        padding: 8px 12px;
+        position: relative;
+    }
 
-    }
-    .navbar navbar-expand-lg navbar-dark navbox{
-        width: 100%;
-    }
+    .nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-item:hover::after{
+    width: 100%;
+}
+    
+
+    
 </style>

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Hottel Management Sysytem</title>
+ <title>Hottel Management Sysytem</title>
 
     <!-- style sheet -->
     <link rel="stylesheet" href="public/css/style.css">
@@ -13,9 +6,7 @@
 
     <!-- javascript -->
     <script src="public/js/bootstrap.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,600;1,700&family=Libre+Bodoni:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     
@@ -44,22 +35,22 @@
                         <div class="carousel-item active slid-box">
                             <img src="public/img/hero2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h1>The Paradise Inn</h1>
-                                <p>Your Home Away From Home</p>
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item slid-box">
                             <img src="public/img/hero3.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h1>The Paradise Inn</h1>
-                                <p>Your Home Away From Home</p>
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item slid-box">
                             <img src="public/img/hero4.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                               <h1>The Paradise Inn</h1>
-                                <p>Your Home Away From Home</p>
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
                             </div>
                         </div>
                     </div>
@@ -79,29 +70,7 @@
 
     <br>
 
-    <div class="container chbox">
-          <!-- form to check rooms -->
-        <form>
-            <div class="row">
-                <div class="col">
-                <label for="email" class="form-label">Date Arrivel:</label>
-                    <input type="date" class="form-control" placeholder="Date Arrivel" name="ardate">
-                </div>
-                <div class="col">
-                <label for="email" class="form-label">Date Departure:</label>
-                    <input type="date" class="form-control" placeholder="Date Departure" name="dedate">
-                </div>
-                <div class="col">
-                <label for="email" class="form-label"># of person:</label>
-                    <input type="number" class="form-control" placeholder="# of person" name="nperson">
-                </div>
-                <div class="col">
-                    <input type="submit" class="btn btn-primary" value="Find Now">
-                </div>
-            </div>
-        </form>
-    </div>
-
+    
 
 
     <style>
