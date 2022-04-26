@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Register</title>
+    <title>Login</title>
 
     <!-- style sheet -->
     <link rel="stylesheet" href="../public/css/style.css">
@@ -41,7 +41,7 @@
 
             <div class="col-sm-4">
 
-                <form action="/action_page.php" method="post" enctype="multipart/form-data">
+                <form action="loginform.php" method="post" enctype="multipart/form-data">
 
                     <div class="mb-3 mt-3">
                         <label for="email" class="form-label">Enter Email:</label>
