@@ -124,8 +124,15 @@ btn-primay:hover {
   transform: translate(-50%,-50%);
   text-align: center;
 }
+.carousel-inner h1{
+  font-size: 65px;
+}
 
-
+.carousel-inner p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
 
   
   

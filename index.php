@@ -42,21 +42,21 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active slid-box">
-                            <img src="public/img/hero2.jpg" class="d-block w-100" alt="...">
+                            <img src="public/img/para8.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h1>The Paradise Inn</h1>
                                 <p>Your Home Away From Home</p>
                             </div>
                         </div>
                         <div class="carousel-item slid-box">
-                            <img src="public/img/hero3.jpg" class="d-block w-100" alt="...">
+                            <img src="public/img/para1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h1>The Paradise Inn</h1>
                                 <p>Your Home Away From Home</p>
                             </div>
                         </div>
                         <div class="carousel-item slid-box">
-                            <img src="public/img/hero4.jpg" class="d-block w-100" alt="...">
+                            <img src="public/img/4.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                <h1>The Paradise Inn</h1>
                                 <p>Your Home Away From Home</p>
