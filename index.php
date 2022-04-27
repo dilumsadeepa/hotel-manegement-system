@@ -59,7 +59,7 @@
                             <img src="public/img/4.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                <h1>The Paradise Inn</h1>
-                                <p>Your Home Away From Home</p>
+                                <p>Changed</p>
                             </div>
                         </div>
                     </div>
