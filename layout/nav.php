@@ -12,16 +12,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
                 </li>
                  <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">LOCATION</a>
+                <a class="nav-link active" aria-current="page" href="location.php">LOCATION</a>
                 </li>
                  <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">FACILITIES</a>
+                <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">DINING</a>
+                <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>
@@ -30,7 +30,7 @@
                 <a class="nav-link active" aria-current="page" href="accomodation.php" >
                     ACCOMODATION
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" >
                     <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">LUXURY ROOM</a></li>
@@ -47,10 +47,10 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">OFFERS</a>
+                <a class="nav-link active" aria-current="page" href="Offers.php">OFFERS</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+                <a class="nav-link active" aria-current="page" href="contact.php">CONTACT US</a>
                 </li>
 
             </ul>
@@ -93,10 +93,20 @@
 
 }
 
-.nav-item:hover::after{
-    width: 100%;
+.dropdown-item{
+        padding: 8px 12px;
+        position: relative;
+        border-radius:10px ;
+        background: #2c3e50;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-    
+.dropdown-item:hover{
+    background: #0B5345;
+
+
+}
+
 
     
 </style>
