@@ -1,6 +1,8 @@
 a{
   text-decoration: none;
   outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Libre Bodoni', serif;
 }
 
 .btn {
@@ -115,24 +117,26 @@ btn-primay:hover {
     width: 80%;
 
   }
-.carousel-inner{
+.hotelname {
   width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-}
-.carousel-inner h1{
-  font-size: 65px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
 }
 
-.carousel-inner p{
-  margin: 10px 0 40px;
-  font-size: 14px;
-  color: #fff;
+.hotelname h1{
+  font-size: 120px;
+  color:#fff;
+  font-family: 'Pacifico', cursive;
 }
 
-  
-  
+.hotelname p{
+margin: 10px 0 40px;
+	font-size: 30px;
+	color: #fff;
+  font-family: 'Tangerine', cursive;
+}
