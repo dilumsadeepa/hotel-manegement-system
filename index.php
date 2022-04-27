@@ -15,9 +15,9 @@
     <script src="public/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,600;1,700&family=Libre+Bodoni:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,
+600;1,700&family=Libre+Bodoni:ital,wght@0,400;0,500;1,400;1,500;1,600&family=M+PLUS+Rounded+1c:
+wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap" rel="stylesheet">
     
     
 
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <?php 
-                    include "layout/nav.php";
+                    require "layout/nav.php";
                 ?>
             </div>
         </div>
@@ -43,23 +43,23 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active slid-box">
                             <img src="public/img/para8.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="hotelname">
                                 <h1>The Paradise Inn</h1>
                                 <p>Your Home Away From Home</p>
                             </div>
                         </div>
                         <div class="carousel-item slid-box">
                             <img src="public/img/para1.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="hotelname">
                                 <h1>The Paradise Inn</h1>
                                 <p>Your Home Away From Home</p>
                             </div>
                         </div>
                         <div class="carousel-item slid-box">
                             <img src="public/img/4.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="hotelname">
                                <h1>The Paradise Inn</h1>
-                                <p>Changed</p>
+                                <p>Your Home Away From Home</p>
                             </div>
                         </div>
                     </div>
