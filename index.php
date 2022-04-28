@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hottel Management Sysytem</title>
+    <title>The paradise Inn</title>
 
     <!-- style sheet -->
     <link rel="stylesheet" href="public/css/style.css">
@@ -42,7 +42,7 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active slid-box">
-                            <img src="public/img/para8.jpg" class="d-block w-100" alt="...">
+                            <img src="public/img/para9.jpg" class="d-block w-100" alt="...">
                             <div class="hotelname">
                                 <h1>The Paradise Inn</h1>
                                 <p>Your Home Away From Home</p>
