@@ -60,6 +60,7 @@ $room = mysqli_query($conn,$roomsql);
         <br><hr><br>
 
         <div class="container-fluid">
+            <h2>Booking a Room</h2>
             <div class="row">
             <div class="col-sm-6">
                 <img class="img-fluid" src="../public/img/regi.png" alt="regiser image">
