@@ -27,10 +27,30 @@
                 <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="accomodation.php" >
+                <!--a class="nav-link active" aria-current="page" href="accomodation.php" >
                     ACCOMODATION
-                </a>
-                <ul class="dropdown-menu" >
+                </a-->
+                <div class="dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    ACCOMODATION
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">LUXURY ROOM</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">FAMILY ROOMS</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">LUXURY SUITE</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">JUNIOR SUITE</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">MOUNTBATTEN SUITE</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
+                <!--ul class="dropdown-menu" >
                     <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">LUXURY ROOM</a></li>
@@ -44,7 +64,7 @@
                     <li><a class="dropdown-item" href="#">MOUNTBATTEN SUITE</a></li>
                     <li><hr class="dropdown-divider"></li>
 
-                </ul>
+                </ul-->
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Offers.php">OFFERS</a>
