@@ -13,9 +13,9 @@ if (isset($_POST['rtype'])) {
     if($result){
         if (isset($_SERVER["HTTP_REFERER"])) {
             header("Location: " . $_SERVER["HTTP_REFERER"]);
-        }else{
-            echo "error..";
         }
+    }else{
+        echo "error..";
     }
 
 
