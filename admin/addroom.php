@@ -1,27 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<?php 
 
-    <!-- style sheet -->
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+if (isset($_POST['rtype'])) {
 
-    <!-- javascript -->
-    <script src="../public/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-
-    <?php include "dashbord.php"; ?>
-
-    <div class="container-fluid">
-        <div class="row">
-            
-        </div>
-    </div>
+    include "../database/database.php";
     
-</body>
-</html>
+    $rtype = $_POST['rtype'];
+    $ac = $_POST['ac'];
+    $price = $_POST['price'];
+    $dis = $_POST['dis'];
+    
+    
+    $sql = "INSERT INTO rooms (rtype, ac,price, dis) Values ('$rtype','$ac','$price','$dis')";
+
+    $result = mysqli_query($conn,$sql);
+
+    if ($result) {
+        
+        if (isset($_SERVER["HTTP_REFERER"])) {
+            header("Location: " . $_SERVER["HTTP_REFERER"]);
+        }
+    }else{
+        echo "error";
+    }
+
+
+
+
+
+}
+
+
+
+
+?>

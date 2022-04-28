@@ -73,14 +73,14 @@ $types = mysqli_query($conn,$rtype);
             <div class="modal-body">
 
 
-                <form action="/action_page.php">
+                <form action="addroom.php" method="post">
 
                     <div class="mb-3 mt-3">
                         <label for="type" class="form-label">Room Type</label>
-                        <select class="form-select">
+                        <select class="form-select" name="rtype">
                             <?php
                             foreach ($types as $t)
-                                echo "<option value ='".$t['type']."'>".$t['type']."</option>";
+                                echo "<option value ='".$t['rtype']."'>".$t['rtype']."</option>";
                             ?>
                             
                         </select>
