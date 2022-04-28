@@ -48,9 +48,7 @@
     </div>
   </div>
 </nav-->
-<?php 
-session_start();
-?>
+
 
 <!-- The sidebar -->
 <div class="sidebar navbox">
