@@ -20,8 +20,8 @@ $checkroom = mysqli_query($conn,$checkroomsql);
 $count = 0;
 $payment = 0;
 foreach ($checkroom as $value) {
-    $count = $count + $value['numof'];
-    $payment = $payment + (($value['price'] * $value['numof']) * $value['day']);
+    $count = $count + 1;
+    $payment = $payment + ($value['price'] * $value['day']);
 }
 
 

@@ -10,6 +10,14 @@ $roomsql = "SELECT * FROM rooms";
 $room = mysqli_query($conn,$roomsql);
 
 
+
+if (isset($_SESSION['message'])) {
+    $ms = $_SESSION['message'];
+}else{
+    $ms = "";
+}
+
+
 ?>
 
 
@@ -33,7 +41,11 @@ $room = mysqli_query($conn,$roomsql);
     <?php include "dashbord.php"; ?>
 
     <section class="content">
-        <br><br>
+        <br>
+        <div class="alert alert-primary" role="alert">
+            <?php echo $ms; ?>
+        </div>
+        <br>
         <div class="container chbox">
             <!-- form to check rooms -->
             <form>
@@ -68,7 +80,7 @@ $room = mysqli_query($conn,$roomsql);
 
             <div class="col-sm-4">
 
-                <form action="loginform.php" method="post" enctype="multipart/form-data">
+                <form action="bookroom.php" method="post" enctype="multipart/form-data">
 
                     <div class="mb-3">
                         <label for="uid" class="form-label">Your email:</label>
@@ -135,6 +147,8 @@ $room = mysqli_query($conn,$roomsql);
             padding: 20px;
         }
 </style>
+
+
 
     
 </body>

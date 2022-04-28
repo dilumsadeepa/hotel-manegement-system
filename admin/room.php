@@ -5,6 +5,9 @@ include "../database/database.php";
 $rtype = "SELECT * FROM roomtypes";
 $types = mysqli_query($conn,$rtype);
 
+$roomsql = "SELECT * FROM rooms";
+$room = mysqli_query($conn,$roomsql);
+
 
 ?>
 
@@ -48,13 +51,51 @@ $types = mysqli_query($conn,$rtype);
                 </div>
 
             </div>
+            <br><hr><br>
             <div class="row">
                 <div class="col-sm-12">
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped">
+                        <tr>
+                            <th>Room Type</th>
+                            <th>AC/NON AC</th>
+                            <th>Price</th>
+                            <th>Number of Rooms</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                        <?php 
+                            foreach ($room as $r) {
+                                echo "<tr>";
+                                echo "<td>".$r['rtype']."</td>";
+                                echo "<td>".$r['ac']."</td>";
+                                echo "<td>".$r['price']."</td>";
+                                echo "<td>".$r['nofroom']."</td>";
+                                echo "<td><form action='editroom.php' method='post'>
+                                <input type='text' value='".$r['id']."' name='id' style='display:none;'>
+                                <button class='btn btn-info' type='submit'>Edit</button>
+                                </form></td>";
+                                echo "<td><form action='deleteroom.php' method='post'>
+                                    <input type='text' value='".$r['id']."' name='id' style='display:none;'>
+                                    <button class='btn btn-info' type='submit'>Delete</button>
+                                    </form></td>";
+                                echo "</tr>";
 
+                            }
+                        
+                        
+                        ?>
+                        
+                    </table>
+                </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
 
 
 
@@ -96,12 +137,17 @@ $types = mysqli_query($conn,$rtype);
 
                     <div class="mb-3 mt-3">
                         <label for="price" class="form-label">Price</label>
-                        <input type="price" class="form-control" id="price" placeholder="Enter price" name="price">
+                        <input type="text" class="form-control" id="price" placeholder="Enter price" name="price">
                     </div>
 
                     <div class="mb-3 mt-3">
                         <label for="dis" class="form-label">Discription</label>
                         <textarea class="form-control" rows="5" id="dis" name="dis"></textarea>
+                    </div>
+
+                    <div class="mb-3 mt-3">
+                        <label for="nofroom" class="form-label">Number of rooms</label>
+                        <input type="number" class="form-control" id="nofroom" placeholder="Enter number odf rooms" name="nofroom">
                     </div>
                     
                     <button type="submit" class="btn btn-primary">Submit</button>
