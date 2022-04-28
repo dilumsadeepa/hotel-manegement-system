@@ -1,9 +1,10 @@
 <?php 
 
-if (isset($_POST['rtype'])) {
+if (isset($_POST['id'])) {
 
     include "../database/database.php";
     
+    $id = $_POST['id'];
     $rtype = $_POST['rtype'];
     $ac = $_POST['ac'];
     $price = $_POST['price'];
@@ -11,15 +12,13 @@ if (isset($_POST['rtype'])) {
     $nofroom = $_POST['nofroom'];
     
     
-    $sql = "INSERT INTO rooms (rtype, ac,price, dis, nofroom) Values ('$rtype','$ac','$price','$dis','$nofroom')";
+    $sql = "UPDATE rooms SET rtype = '$rtype', ac = '$ac', price = '$price', dis = '$dis', nofroom = '$nofroom' WHERE id = '$id'";
 
     $result = mysqli_query($conn,$sql);
 
     if ($result) {
-        
-        if (isset($_SERVER["HTTP_REFERER"])) {
-            header("Location: " . $_SERVER["HTTP_REFERER"]);
-        }
+            header("Location: room.php");
+       
     }else{
         echo "error";
     }
