@@ -31,12 +31,12 @@
                     ACCOMODATION
                 </a-->
                 <div class="dropdown">
-                    <a class="nav-link active dropdown-toggle" href="accomodation.php" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                    <a class="nav-link active dropdown-toggle" href="accomodation.php">
                     ACCOMODATION
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
+                        <li><a class="dropdown-item" href="deluxe.php">DELUXE ROOM</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">LUXURY ROOM</a></li>
                         <li><hr class="dropdown-divider"></li>

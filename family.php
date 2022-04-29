@@ -18,7 +18,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,
 600;1,700&family=Libre+Bodoni:ital,wght@0,400;0,500;1,400;1,500;1,600&family=M+PLUS+Rounded+1c:
 wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap" rel="stylesheet">
-    
+</head>
+<body>
+        
     
 
     <div class="container-fluid">
@@ -77,94 +79,72 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
         
     </div>
 
-    <br><br><br>
-
-        <div class="After">
-            <h1>Accomodation</h1>
-            <br>
-
-            <p>Adore your accommodation in Kandy with your very own view of flowing river, lush hills, lake and looming mountains.
-                 Each of our rooms extend out to a balcony with a stunning vista of your surroundings. Spacious and stylish, the
-                  116 rooms at the Paradise Inn are uniquely designed to portray the city of Kandy – from the wooden floors to the 
-                  furniture – each piece displays the local influence which was created in giving you the most unique holiday experience 
-                  among Sri Lanka’s luxury resorts.<br><br>
-                Basic amenities such as tea and coffee percolators, hairdryers, telephones, and safes can be found in all of our
-                 accommodation options. Further facilities include interconnecting rooms, additional cots or beds, 24-hour room service, 
-                 laundry service, and dry cleaning.<br><br>
-                Check-in and check-out is at 12 noon, and if required, can be extended upon availability. Furthermore, driver’s
-                 accommodation and meals can be arranged.</p>
+    <br>
+    <div class="cata">
+    <div class="deluxe">
+        <ul type="none">
+            <li><a href="deluxe.php">DELUXE ROOM</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="luxury.php">LUXURY ROOM</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="family.php">FAMILY ROOM</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="junior.php">JUNIOR SUITE</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="luxury_suite.php">LUXURY SUITE</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a href="mountbatten.php">MOUNTBATTEN SUITE</a></li>
+    </div>
         
-        <div class="row1">
-            <div class="course-col">
-                <img src="public/img/deluxe.jpg" alt="">
-                <h3>
-                    Deluxe Room
-                </h3>
-                <p>
-                Our luxury hotel in Kandy offers deluxe rooms that are spacious and well laid out, with a writing desk, 
-                couch and tub chairs, as well as a private balcony.
-                </p>
-                <a href="deluxe.php"><button onclick="">Learn more</button></a>
-                 
-            </div>
-            <div class="course-col">
-                <img src="public/img/luxury.jpg" alt="">
-                <h3>
-                    Luxury Room
-                </h3>
-                <p>
-                Enjoy a peaceful holiday retreat, away from the bustle of the city, in the beautiful up-country of Sri Lanka. Luxury hotels
-                </p>
-                <a href="luxury.php"><button onclick="">Learn more</button></a>
-            </div>
-            <div class="course-col">
-            <img src="public/img/family.jpg" alt="">
-                <h3>
-                    Family Room
-                </h3>
-                <p>
-                For those of you seeking modern facilities and gracious hospitality distinguishes in Sri Lanka will find a winner with Earl’s Regency.
-                </p>
-                <a href="family.php"><button onclick="">Learn more</button></a>
-            </div>
-        </div>
-        <div class="row2">
-            <div class="course-col">
-            <img src="public/img/junior.jpg" alt="">
-                <h3>
-                    Junior Suit
-                </h3>
-                <p>
-                Enjoy the comforts of a 5 star hotel in Kandy as you and your partner honeymoon in the paradise island of Sri Lanka.
-                </p>
-                <a href="junior.php"><button onclick="">Learn more</button></a>
-                 
-            </div>
-            <div class="course-col">
-            <img src="public/img/luxury_suite.jpg" alt="">
-                <h3>
-                    Luxury Suite
-                </h3>
-                <p>
-                Mountain view with outdoor and indoor private Jacuzzi, with separate bedroom, living/dining area and private terrace overlooking the river
-                </p>
-                <a href="luxury_suite.php"><button onclick="">Learn more</button></a>
-                 
-            </div>
-            <div class="course-col">
-            <img src="public/img/mountbatten.jpg" alt="">
-                <h3>
-                    Mountbatten Suite
-                </h3>
-                <p>
-                Enjoy a peaceful holiday retreat, away from the bustle of the city, in the beautiful upcountry of Sri Lanka
-                </p>
-                <a href="mountbatten.php"><button onclick="">Learn more</button></a>
-                 
-            </div>
+    </ul> 
+    <div class="title">
+    <h1>FAMILY ROOM</h1>
+    <br>
+    <p>Private rooms. Private balcony. Private Jacuzzi. The Family Rooms at Paradise Inn offer an opulent and yet cozy 
+        experience that makes it unique among family hotels in Sri Lanka. Make our Family Rooms your private sanctuary
+         during your vacation in Kandy. Classic furnishings with modern elements complete our five-star hotel amenities and view of 
+         the majestic Kandy Mountains.
 
-        </div>
+.<br>
+
+    <p>Location : Dumbara Wing</p>
+    
+    <h3>prices</h3>
+    <p>All rates are per room, for bed and breakfast, including tax and service.</p>
     <br><br>
+    </div>
+</div>
+<div class="catafam">
+    <div class="imgblock">
+    <img src="public/img/family.jpg">
+    <img src="public/img/bathroom3.jpg">
+    </div>
+    <div class="imgblock2">
+    <img src="public/img/TV3.jpg">
+    <img src="public/img/balconi1.jpg">
+    </div>
+</div>
+<div class="cata2">
+    <h3><b>FACILITIES</b></h3>
+    <ul type="sqaure">
+        <li>King-sized Bed or Twin Beds</li>
+        <li>separate Living Area</li>
+        <li> Private Balcony</li>
+        <li>Fully Air-conditioned</li>
+        <li>LED TV with Satellite and Local Channels</li>
+        <li>Writing Desk</li>
+        <li>Bathtub with Free Toiletries</li>
+        <li>Hairdryer</li>
+        <li>Tea and Coffee Making Facilities</li>
+        <li>Bottled Water</li>
+        <li>Telephone with International Direct Dialling Facilities</li>
+        <li>In-Room Digital Safe</li>
+        <li>Stocked Mini-Fridge at Cost</li>
+        <li>24 Hour Room Service</li>   
+        <li>Laundry and Dry Cleaning Service at Cost</li>
+</ul>
+</div>
+
 
 
 
@@ -183,10 +163,32 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
 
             padding: 20px;
         }
-        
+        .deluxe ul{
+            background: #b8b894;
+            width: 300px;
+            height: 360px;
+            margin-left: 7%;
+            margin-bottom: 4%;
 
+            }
+          
+
+            .deluxe ul li a{
+            list-style: none;
+            width: 240px;
+            color: black;
+            display: block;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 10px;
+            font-weight: bold;
+            font-family: 'IBM Plex Serif', serif;
+            }
+            .deluxe a:hover{
+                background-color:#f5f5f0;
+                  }
     </style>
 
-    
+        <br><br><br>
 </body>
 </html>

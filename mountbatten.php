@@ -93,32 +93,33 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
             <li><hr class="dropdown-divider"></li>
             <li><a href="luxury_suite.php">LUXURY SUITE</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a href="mountabatten.php">MOUNTBATTEN SUITE</a></li>
+            <li><a href="mountbatten.php">MOUNTBATTEN SUITE</a></li>
     </div>
         
     </ul> 
     <div class="title">
-    <h1>DELUXE ROOM</h1>
+    <h1>MOUNTBATTEN SUITE</h1>
     <br>
-    <p>Unwind and experience everything Kandy has to offer from the spacious Deluxe Room at the Paradise Inn,
-         a popular luxury hotel among Sri Lanka Kandy hotels. Come back to a relaxing environment after a long day of 
-         exploring the beautiful land. An ideal choice for its exceptional value, the Deluxe Room has more space and more 
-         amenities to make your stay in a luxury hotel in Kandy a memorable one.<br>
+    <p>To the Lords and Ladies in the court, we present to you the Mountbatten Suite, accommodation
+         fit for a King and Queen. Spanning over 920 square feet, we bring you the best accommodation in
+          all of luxury hotels in Kandy has to offer. An enormous balcony brings together the bedroom, 
+        living room and dining area. Your home away from home, the Mountbatten Suite awaits you…
+<br>
 
-    <p>Location : Main building and South Wing</p>
+    <p>Location : Main building</p>
     
     <h3>prices</h3>
     <p>All rates are per room, for bed and breakfast, including tax and service.</p>
     <br><br>
     </div>
 </div>
-<div class="cata1">
+<div class="catamount">
     <div class="imgblock">
-    <img src="public/img/deluxe.jpg">
-    <img src="public/img/TV2.jpg">
+    <img src="public/img/mountbatten.jpg">
+    <img src="public/img/bathroom3.jpg">
     </div>
     <div class="imgblock2">
-    <img src="public/img/bathroom3.jpg">
+    <img src="public/img/TV3.jpg">
     <img src="public/img/balconi2.jpg">
     </div>
 </div>
@@ -126,10 +127,10 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
     <h3><b>FACILITIES</b></h3>
     <ul type="sqaure">
         <li>King-sized Bed or Twin Beds</li>
-        <li>Divided Living Area</li>
+        <li>separate Living Area</li>
         <li> Private Balcony</li>
         <li>Fully Air-conditioned</li>
-        <li>TV with Satellite and Local Channels</li>
+        <li>LED TV with Satellite and Local Channels</li>
         <li>Writing Desk</li>
         <li>Bathtub with Free Toiletries</li>
         <li>Hairdryer</li>
@@ -142,51 +143,45 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
         <li>Laundry and Dry Cleaning Service at Cost</li>
 </ul>
 </div>
+<style>
 
+.slid-box{
+    height: 90vh;
+}
 
+.chbox{
+    background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    padding: 20px;
+}
+.deluxe ul{
+    background: #b8b894;
+    width: 300px;
+    height: 360px;
+    margin-left: 7%;
+    margin-bottom: 4%;
 
+    }
+  
 
+    .deluxe ul li a{
+    list-style: none;
+    width: 240px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+    }
+    .deluxe a:hover{
+        background-color:#f5f5f0;
+          }
+</style>
 
-    <style>
-
-        .slid-box{
-            height: 90vh;
-        }
-
-        .chbox{
-            background: #16BFFD;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            padding: 20px;
-        }
-        .deluxe ul{
-            background: #b8b894;
-            width: 300px;
-            height: 360px;
-            margin-left: 7%;
-            margin-bottom: 4%;
-
-            }
-          
-
-            .deluxe ul li a{
-            list-style: none;
-            width: 240px;
-            color: black;
-            display: block;
-            text-decoration: none;
-            font-size: 15px;
-            padding: 10px;
-            font-weight: bold;
-            font-family: 'IBM Plex Serif', serif;
-            }
-            .deluxe a:hover{
-                background-color:#f5f5f0;
-                  }
-    </style>
-
-        <br><br><br>
+<br><br><br>
 </body>
 </html>
