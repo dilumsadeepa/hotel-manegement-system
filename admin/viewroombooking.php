@@ -1,22 +1,4 @@
-<?php  
 
-include "../database/database.php";
-
-session_start();
-
-$email = $_SESSION["email"];
-
-$foodsql = "SELECT orderfoods.*, foods.*
-FROM orderfoods
-INNER JOIN foods ON orderfoods.fid=foods.id WHERE orderfoods.usid='$email'";
-$food = mysqli_query($conn,$foodsql);
-
-
-
-
-
-
-?>
 
 
 <!DOCTYPE html>
@@ -38,6 +20,26 @@ $food = mysqli_query($conn,$foodsql);
 
     <?php include "dashbord.php"; ?>
 
+    <?php  
+
+include "../database/database.php";
+
+$da = date("Y-m-d");
+
+$email = $_SESSION["email"];
+
+$foodsql = "SELECT bookrooms.*, rooms.*, users.*
+FROM ((bookrooms
+INNER JOIN rooms ON bookrooms.rid=rooms.id) INNER JOIN users ON bookrooms.uid = users.email)";
+$food = mysqli_query($conn,$foodsql);
+
+
+
+
+
+
+?>
+
     <section class="content">
         <div class="containe">
             <div class="row">
@@ -48,27 +50,31 @@ $food = mysqli_query($conn,$foodsql);
                 <div class="table-responsive">
                     <table class="table table-dark table-striped">
                         <tr>
-                            <th>Name</th>
-                            <th>Address</th>
-                            <th>Number of foods</th>
+                            <th>Room Name</th>
+                            <th>Custermer Name</th>
+                            <th>Custermer email</th>
+                            <th>Days</th>
+                            <th>Number of rooms</th>
                             <th>Price</th>
-                            <th>Oder date</th>
-                            <th>Oder time</th>
-                            <th>Pay</th>
+                            <th>Order date</th>
+                            <th>Order time</th>
+                            <th>conferm</th>
                             
                         </tr>
                         <?php 
                             foreach ($food as $f) {
                                 echo "<tr>";
-                                echo "<td>".$f['name']."</td>";
-                                echo "<td>".$f['loca']."</td>";
-                                echo "<td>".$f['nofood']."</td>";
-                                echo "<td>".$f['price'] * $f['nofood']."</td>";
-                                echo "<td>".$f['ordate']."</td>";
-                                echo "<td>".$f['ortime']."</td>";
-                                echo "<td><form action='pay.php' method='post'>
+                                echo "<td>".$f['rnum']."</td>";
+                                echo "<td>".$f['fullname']."</td>";
+                                echo "<td>".$f['email']."</td>";
+                                echo "<td>".$f['day']."</td>";
+                                echo "<td>".$f['numof']."</td>";
+                                echo "<td>".$f['price']."</td>";
+                                echo "<td>".$f['ardate']."</td>";
+                                echo "<td>".$f['dedate']."</td>";
+                                echo "<td><form action='finishroom.php' method='post'>
                                 <input type='text' value='".$f['id']."' name='id' style='display:none;'>
-                                <button class='btn btn-info' type='submit'>Pay Bill</button>
+                                <button class='btn btn-info' type='submit'>Finish</button>
                                 </form></td>";
 
                             }

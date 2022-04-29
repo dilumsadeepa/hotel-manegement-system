@@ -50,6 +50,12 @@ $food = mysqli_query($conn,$foodsql);
                     </button>
                 </div>
 
+                <div class="col-sm-3">
+                    <!-- view orders -->
+                    <a href="vieworders.php" class="btn btn-info">View Orders</a>
+                    
+                </div>
+
             </div>
             <br><hr><br>
             <div class="row">

@@ -4,6 +4,7 @@ if (isset($_POST['rtype'])) {
 
     include "../database/database.php";
     
+    $rnum = $_POST['rnum'];
     $rtype = $_POST['rtype'];
     $ac = $_POST['ac'];
     $price = $_POST['price'];
@@ -11,7 +12,7 @@ if (isset($_POST['rtype'])) {
     $nofroom = $_POST['nofroom'];
     
     
-    $sql = "INSERT INTO rooms (rtype, ac,price, dis, nofroom) Values ('$rtype','$ac','$price','$dis','$nofroom')";
+    $sql = "INSERT INTO rooms (rnum,rtype, ac,price, dis, nofroom) Values ('$rnum','$rtype','$ac','$price','$dis','$nofroom')";
 
     $result = mysqli_query($conn,$sql);
 

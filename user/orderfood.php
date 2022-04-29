@@ -7,18 +7,25 @@
         
         $uid = $_POST['uid'];
         $fid = $_POST['fid'];
-        $location = $_POST['location'];
+        $location = $_POST['address'];
         $nofood = $_POST['nofood'];
         $ordate = $_POST['ordate'];
         $ortime = $_POST['ortime'];
 
+       /* echo $uid;
+        echo $fid;
+        echo $location;
+        echo $nofood;
+        echo $ordate;
+        echo $ortime;*/
+
         
     
-       $sql = "INSERT INTO orderfoods (uid,fid,location,nofood,ordate,ortime) VALUES ('$rid','$uid','$numof','$day','$ardate','$ortime')";
+       $sql = "INSERT INTO orderfoods (usid,fid,loca,nofood,ordate,ortime) VALUES ('$uid','$fid','$location','$nofood','$ordate','$ortime')";
 
-        $result = mysqli_query($conn,$sql);
+        //$result = mysqli_query($conn,$sql);
 
-        if($result){
+        if(mysqli_query($conn,$sql)){
             $_SESSION['message'] = "You place order successfully";
             if (isset($_SERVER["HTTP_REFERER"])) {
                 header("Location: " . $_SERVER["HTTP_REFERER"]);

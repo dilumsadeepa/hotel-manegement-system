@@ -1,22 +1,4 @@
-<?php  
 
-include "../database/database.php";
-
-session_start();
-
-$email = $_SESSION["email"];
-
-$foodsql = "SELECT orderfoods.*, foods.*
-FROM orderfoods
-INNER JOIN foods ON orderfoods.fid=foods.id WHERE orderfoods.usid='$email'";
-$food = mysqli_query($conn,$foodsql);
-
-
-
-
-
-
-?>
 
 
 <!DOCTYPE html>
@@ -38,6 +20,27 @@ $food = mysqli_query($conn,$foodsql);
 
     <?php include "dashbord.php"; ?>
 
+    <?php  
+
+include "../database/database.php";
+
+$da = date("Y-m-d");
+
+$email = $_SESSION["email"];
+
+$foodsql = "SELECT orderfoods.*, foods.*, users.*
+FROM ((orderfoods
+INNER JOIN foods ON orderfoods.fid=foods.id)
+INNER JOIN users ON orderfoods.usid = users.email) WHERE orderfoods.ordate >= '$da';";
+$food = mysqli_query($conn,$foodsql);
+
+
+
+
+
+
+?>
+
     <section class="content">
         <div class="containe">
             <div class="row">
@@ -48,27 +51,29 @@ $food = mysqli_query($conn,$foodsql);
                 <div class="table-responsive">
                     <table class="table table-dark table-striped">
                         <tr>
-                            <th>Name</th>
+                            <th>Food Name</th>
+                            <th>Custermer Name</th>
                             <th>Address</th>
                             <th>Number of foods</th>
                             <th>Price</th>
-                            <th>Oder date</th>
-                            <th>Oder time</th>
-                            <th>Pay</th>
+                            <th>Order date</th>
+                            <th>Order time</th>
+                            <th>conferm</th>
                             
                         </tr>
                         <?php 
                             foreach ($food as $f) {
                                 echo "<tr>";
                                 echo "<td>".$f['name']."</td>";
+                                echo "<td>".$f['fullname']."</td>";
                                 echo "<td>".$f['loca']."</td>";
                                 echo "<td>".$f['nofood']."</td>";
                                 echo "<td>".$f['price'] * $f['nofood']."</td>";
                                 echo "<td>".$f['ordate']."</td>";
                                 echo "<td>".$f['ortime']."</td>";
-                                echo "<td><form action='pay.php' method='post'>
+                                echo "<td><form action='confirmorder.php' method='post'>
                                 <input type='text' value='".$f['id']."' name='id' style='display:none;'>
-                                <button class='btn btn-info' type='submit'>Pay Bill</button>
+                                <button class='btn btn-info' type='submit'>Confirm</button>
                                 </form></td>";
 
                             }
