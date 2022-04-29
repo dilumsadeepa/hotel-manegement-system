@@ -17,15 +17,6 @@
                  <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="location.php">LOCATION</a>
                 </li>
-                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>
-                </li>
                 <li class="nav-item">
                 <!--a class="nav-link active" aria-current="page" href="accomodation.php" >
                     ACCOMODATION
@@ -65,6 +56,16 @@
                     <li><hr class="dropdown-divider"></li>
 
                 </ul-->
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Offers.php">OFFERS</a>

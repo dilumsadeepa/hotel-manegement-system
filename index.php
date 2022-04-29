@@ -101,8 +101,31 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
             </div>
         </form>
     </div>
+    <br><br>
+    <div class="new">
+    
+        <h1>The Paradise Inn, Luxury Hotel In Kandy</h1>
+        <br>
+
+        <p><b>
+        Let us take you back over 200 years to Sri Lanka’s last and most exotic monarchy.<br>
+
+Live like royalty at the Paradise Inn – a premier five star getaway among luxury hotels Sri Lanka, located in the heart of the island’s
+ cultural capital, Kandy. Surrounded by the history and tradition of the kings before us, we at Paradise Inn, a leading hospitality provider
+  among all Kandy hotels and reputed Kandy luxury hotels, provide a luxury base for you to venture out and explore from.
+ So pack your bags your highness, your carriage awaits to take you to a different time, a different place, a different era…
+</b></p>
+
+    </div>
+    
+    <div class="logo">
+
+    <a href=""><img src="public/img/facebook.png" alt="" ></a>
+    <a href=""><img src="public/img/twitter.png" alt="" ></a>
+    <a href=""><img src="public/img/instagram.jpg" alt="" ></a>
 
 
+    </div>
 
     <style>
 

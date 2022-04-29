@@ -352,3 +352,47 @@ button:hover{
         .catamount img{
           width: 450px;
           height: 450px;}
+    
+  .new{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+  .new h1{
+    color: #4D626B;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+
+  .new p{
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  .logo{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 10%;
+    display: block  ;
+    justify-content: space-between;
+   padding: 8px 8px;
+  align: center;
+  }
+.logo img{
+  flex-basis: 31%;
+  background: #D9F9F3 ;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+}
+
+img:hover{
+  background-color: #6699ff;
+}
+ 
