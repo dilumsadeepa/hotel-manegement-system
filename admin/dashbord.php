@@ -61,7 +61,7 @@ session_start();
   <img src="../public/img/menu.png" width="40px" class="menu-icon" id="micon" onclick="showmenu()">
   <a class="active" href="home.php" id="sidebar">Home</a>
   <a href="room.php" id="sidebar">Rooms</a>
-  <a href="#contact" id="sidebar">contact</a>
+  <a href="food.php" id="sidebar">Food</a>
   <a href="#about" id="sidebar">About</a>
 </div>
 

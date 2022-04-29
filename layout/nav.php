@@ -31,7 +31,7 @@
                     ACCOMODATION
                 </a-->
                 <div class="dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link active dropdown-toggle" href="accomodation.php" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
                     ACCOMODATION
                     </a>
 
