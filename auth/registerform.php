@@ -11,7 +11,7 @@
         $address = $_POST['address'];
         $gender = $_POST['gender'];
 
-        $sql = "insert into users (name,email,tel,password,address,gender) values ('$name','$email','$tel','$password','$address','$gender')";
+        $sql = "insert into users (fullname,email,tel,password,address,gender) values ('$name','$email','$tel','$password','$address','$gender')";
         
         if (mysqli_query($conn,$sql)) {
            

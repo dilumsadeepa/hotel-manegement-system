@@ -50,6 +50,12 @@ $room = mysqli_query($conn,$roomsql);
                     </button>
                 </div>
 
+                <div class="col-sm-3">
+                    <!-- view orders -->
+                    <a href="viewroombooking.php" class="btn btn-info">View Booked rooms</a>
+                    
+                </div>
+
             </div>
             <br><hr><br>
             <div class="row">
@@ -57,6 +63,7 @@ $room = mysqli_query($conn,$roomsql);
                 <div class="table-responsive">
                     <table class="table table-dark table-striped">
                         <tr>
+                            <th>Room Number</th>
                             <th>Room Type</th>
                             <th>AC/NON AC</th>
                             <th>Price</th>
@@ -67,6 +74,7 @@ $room = mysqli_query($conn,$roomsql);
                         <?php 
                             foreach ($room as $r) {
                                 echo "<tr>";
+                                echo "<td>".$r['rnum']."</td>";
                                 echo "<td>".$r['rtype']."</td>";
                                 echo "<td>".$r['ac']."</td>";
                                 echo "<td>".$r['price']."</td>";
@@ -115,6 +123,11 @@ $room = mysqli_query($conn,$roomsql);
 
 
                 <form action="addroom.php" method="post">
+
+                    <div class="mb-3 mt-3">
+                        <label for="rnum" class="form-label">Enter the room number</label>
+                        <input type="text" class="form-control" id="rnum" placeholder="Enter the room number" name="rnum">
+                    </div>
 
                     <div class="mb-3 mt-3">
                         <label for="type" class="form-label">Room Type</label>

@@ -15,7 +15,7 @@
         foreach ($result as $value) {
     
             if ($value['email'] == $email && $value['password'] == $password) {
-                $name = $value['name'];
+                $name = $value['fullname'];
                 $email = $value['email'];
                 $_SESSION["name"] = $name;
                 $_SESSION["email"] = $email;

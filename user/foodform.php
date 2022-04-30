@@ -67,7 +67,7 @@ if (isset($_SESSION['message'])) {
 
             <div class="col-sm-4">
 
-                <form action="bookroom.php" method="post" enctype="multipart/form-data">
+                <form action="orderfood.php" method="post" enctype="multipart/form-data">
 
                     <div class="mb-3">
                         <label for="uid" class="form-label">Your email:</label>
@@ -81,7 +81,7 @@ if (isset($_SESSION['message'])) {
 
                     <div class="mb-3">
                         <label for="dedate" class="form-label">Location or room number:</label>
-                        <input type="text" class="form-control" placeholder="Enter the address or room number" name="location">
+                        <input type="text" class="form-control" placeholder="Enter the address or room number" name="address">
                     </div>
 
                     <div class="mb-3">
