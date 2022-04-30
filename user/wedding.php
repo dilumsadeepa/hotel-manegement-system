@@ -6,8 +6,8 @@ session_start();
 
 $email = $_SESSION["email"];
 
-$roomsql = "SELECT * FROM rooms";
-$room = mysqli_query($conn,$roomsql);
+$weddingsql = "SELECT * FROM wedding";
+$wedding = mysqli_query($conn,$weddingsql);
 
 
 
@@ -51,15 +51,20 @@ if (isset($_SESSION['message'])) {
             <form>
                 <div class="row">
                     <div class="col">
-                    <label for="ardate" class="form-label">Date Arrival:</label>
+                    <label for="ardate" class="form-label">Date of Wedding:</label>
                         <input type="date" class="form-control" placeholder="Date Arrivel" name="ardate">
                     </div>
                     <div class="col">
-                    <label for="dedate" class="form-label">Date Departure:</label>
-                        <input type="date" class="form-control" placeholder="Date Departure" name="dedate">
+                    <label for="ardate" class="form-label">Hall Type:</label>
+                       <select class="form-select" name="ortime">
+                            <option value = "Breckfirst">Main Buildding</option>
+                            <option value = "Lunch">South Wing</option>
+                            <option value = "Dinner">Dumbara Wing</option>
+                            
+                        </select>
                     </div>
-                    <div class="col">
-                    <label for="nop" class="form-label"># of person:</label>
+                     <div class="col">
+                    <label for="nop" class="form-label">Number of person:</label>
                         <input type="number" class="form-control" placeholder="# of person" name="nperson">
                     </div>
                     <div class="col">
@@ -72,7 +77,7 @@ if (isset($_SESSION['message'])) {
         <br><hr><br>
 
         <div class="container-fluid">
-            <h2>Booking a Room</h2>
+            <h2>Booking for a Wedding</h2>
             <div class="row">
             <div class="col-sm-6">
                 <img class="img-fluid" src="../public/img/regi.png" alt="regiser image">
@@ -80,7 +85,7 @@ if (isset($_SESSION['message'])) {
 
             <div class="col-sm-4">
 
-                <form action="bookroom.php" method="post" enctype="multipart/form-data">
+                <form action="bookwedding.php" method="post" enctype="multipart/form-data">
 
                     <div class="mb-3">
                         <label for="uid" class="form-label">Your email:</label>
@@ -88,22 +93,27 @@ if (isset($_SESSION['message'])) {
                     </div>
 
                     <div class="mb-3 mt-3">
-                        <label for="ardate" class="form-label">Date Arrival:</label>
+                        <label for="ardate" class="form-label">Date of wedding:</label>
                         <input type="date" class="form-control" placeholder="Date Arrivel" name="ardate">
                     </div>
 
                     <div class="mb-3">
-                        <label for="dedate" class="form-label">Date Departure:</label>
-                        <input type="date" class="form-control" placeholder="Date Departure" name="dedate">
+                        <label for="dedate" class="form-label">Hall Type:</label>
+                        <select class="form-select" name="ortime">
+                            <option value = "Breckfirst">Main Buildding</option>
+                            <option value = "Lunch">South Wing</option>
+                            <option value = "Dinner">Dumbara Wing</option>
+                            
+                        </select>
                     </div>
 
                     <div class="mb-3">
-                        <label for="nop" class="form-label"># of person:</label>
+                        <label for="nop" class="form-label">Number of person:</label>
                         <input type="number" class="form-control" placeholder="# of person" name="nperson">
                     </div>
 
                     <div class="mb-3">
-                        <label for="Room" class="form-label">Room Type:</label>
+                        <label for="Room" class="form-label">Type of wedding package:</label>
                         
                         <select class="form-select" name="rid">
                             <?php foreach ($room as $r) {

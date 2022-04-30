@@ -57,7 +57,7 @@ foreach ($checkroom as $value) {
 
                 <div class="col-sm-3 chbox">
                     <form action="" method="post">
-                        <label for="ardate" class="form-label">Date Arrivel:</label>
+                        <label for="ardate" class="form-label">Date Arrival:</label>
                         <input type="date" class="form-control" placeholder="Date Arrivel" name="ardate">
                         <button type="submit" class="btn btn-info">Check from date</button>
                     </form>
@@ -85,7 +85,7 @@ foreach ($checkroom as $value) {
             <form>
                 <div class="row">
                     <div class="col">
-                    <label for="ardate" class="form-label">Date Arrivel:</label>
+                    <label for="ardate" class="form-label">Date Arrival:</label>
                         <input type="date" class="form-control" placeholder="Date Arrivel" name="ardate">
                     </div>
                     <div class="col">

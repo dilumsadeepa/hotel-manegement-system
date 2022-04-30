@@ -103,7 +103,7 @@ if (isset($_SESSION['message'])) {
                         <label for="time" class="form-label">Time of order:</label>
                         
                         <select class="form-select" name="ortime">
-                            <option value = "Breckfirst">Breckfirs</option>
+                            <option value = "Breckfirst">Breakfast</option>
                             <option value = "Lunch">Lunch</option>
                             <option value = "Dinner">Dinner</option>
                             <option value = "Morning">Morning</option>

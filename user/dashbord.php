@@ -60,6 +60,7 @@
   <a class="active" href="home.php" id="sidebar">Home</a>
   <a href="room.php" id="sidebar">Rooms</a>
   <a href="food.php" id="sidebar">Food</a>
+  <a href="wedding.php" id="sidebar">Wedding</a>
   <a href="#about" id="sidebar">About</a>
 </div>
 

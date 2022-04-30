@@ -58,7 +58,7 @@ $food = mysqli_query($conn,$foodsql);
                     <table class="table table-dark table-striped">
                         <tr>
                             <th>Name</th>
-                            <th>Catagary</th>
+                            <th>Category</th>
                             <th>Price</th>
                             <th>Image</th>
                             <th>Edit</th>
@@ -172,7 +172,7 @@ $food = mysqli_query($conn,$foodsql);
 
             
             <div class="modal-header">
-                <h4 class="modal-title">Add Food Catagary</h4>
+                <h4 class="modal-title">Add Food Category</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
@@ -183,7 +183,7 @@ $food = mysqli_query($conn,$foodsql);
                 <form action="addfoodcat.php" method="post">
 
                     <div class="mb-3 mt-3">
-                        <label for="fcat" class="form-label">Enter the catagary Name</label>
+                        <label for="fcat" class="form-label">Enter the category Name</label>
                         <input type="text" class="form-control" id="fcat" placeholder="Enter the catagary name" name="cat">
                     </div>
 

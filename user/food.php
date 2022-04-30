@@ -45,7 +45,7 @@ if (isset($_SESSION['message'])) {
             <br><br>
             <div class="row">
                 <div class="col-sm-3">
-                    <a href="foodform.php" class="btn btn-info">Oredr form</a>
+                    <a href="foodform.php" class="btn btn-info">Order form</a>
                 </div>
                 <div class="col-sm-3">
                     <a href="vieworder.php" class="btn btn-info">View order</a>

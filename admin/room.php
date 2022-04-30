@@ -34,7 +34,7 @@ $room = mysqli_query($conn,$roomsql);
     <section class="content">
         <div class="container-fluid">
             <div class="row">
-                <h2>Hottel Rooms</h2><br><hr>
+                <h2>Hotel Rooms</h2><br><hr>
 
                 <div class="col-sm-3">
                     <!-- Button to Open the Add Room -->
@@ -147,7 +147,7 @@ $room = mysqli_query($conn,$roomsql);
 
                     <div class="mb-3 mt-3">
                         <label for="nofroom" class="form-label">Number of rooms</label>
-                        <input type="number" class="form-control" id="nofroom" placeholder="Enter number odf rooms" name="nofroom">
+                        <input type="number" class="form-control" id="nofroom" placeholder="Enter number of rooms" name="nofroom">
                     </div>
                     
                     <button type="submit" class="btn btn-primary">Submit</button>

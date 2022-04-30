@@ -79,7 +79,7 @@ $types = mysqli_query($conn,$rtype);
 
                         <div class="mb-3 mt-3">
                             <label for="nofroom" class="form-label">Number of rooms</label>
-                            <input type="number" class="form-control" value="<?php echo $r['nofroom'];?>" id="nofroom" placeholder="Enter number odf rooms" name="nofroom">
+                            <input type="number" class="form-control" value="<?php echo $r['nofroom'];?>" id="nofroom" placeholder="Enter number of rooms" name="nofroom">
                         </div>
 
                         <button type="submit" class="btn btn-primary">Submit</button>

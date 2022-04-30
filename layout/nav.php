@@ -60,6 +60,9 @@
 
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
+                    <ul>
+                        <li>Royal Pavilion Restuar</li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>

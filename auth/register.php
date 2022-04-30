@@ -33,7 +33,7 @@
             <div class="col-sm-1"></div>
 
             <div class="col-sm-6">
-                <a href="login.php" class="btn btn-info"> Alredy have an account? Plase login</a>
+                <a href="login.php" class="btn btn-info"> Alredy have an account? Please login</a>
 
                 <img class="img-fluid" src="../public/img/regi.png" alt="regiser image">
             </div>
