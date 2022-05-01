@@ -48,7 +48,7 @@ if (isset($_SESSION['message'])) {
         <br>
         <div class="container chbox">
             <!-- form to check rooms -->
-            <form>
+            <form action="checkroom.php" method="post">
                 <div class="row">
                     <div class="col">
                     <label for="ardate" class="form-label">Date Arrival:</label>

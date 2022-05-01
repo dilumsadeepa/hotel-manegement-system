@@ -54,14 +54,18 @@
 <div class="sidebar navbox">
   <br>
   <h5><?php 
+  if (isset($_SESSION["name"])) {
     echo $_SESSION["name"];
+  }else{
+    header("Location: ../auth/login.php");
+  }
   ?></h5>
   <img src="../public/img/menu.png" width="40px" class="menu-icon" id="micon" onclick="showmenu()">
   <a class="active" href="home.php" id="sidebar">Home</a>
   <a href="room.php" id="sidebar">Rooms</a>
   <a href="food.php" id="sidebar">Food</a>
   <a href="wedding.php" id="sidebar">Wedding</a>
-  <a href="#about" id="sidebar">About</a>
+  
 </div>
 
 

@@ -17,13 +17,7 @@
 </head>
 <body>
 
-    <!--div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <?php include "../layout/nav.php"; ?>
-            </div>
-        </div>
-    </div-->
+    
     <br><br>
 
     <div class="container-fluid">
