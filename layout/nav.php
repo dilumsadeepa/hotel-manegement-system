@@ -15,11 +15,6 @@
                 <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
                 </li>
                  <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="location.php">LOCATION</a>
-                </li>
-<<<<<<< Updated upstream
-=======
-                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>
                 </li>
                 <li class="nav-item">
@@ -28,11 +23,7 @@
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="wedding/wedding.html">WEDDING</a>
                 </li>
->>>>>>> Stashed changes
-                <li class="nav-item">
-                <!--a class="nav-link active" aria-current="page" href="accomodation.php" >
-                    ACCOMODATION
-                </a-->
+                
                 <div class="dropdown">
                     <a class="nav-link active dropdown-toggle" href="accomodation.php">
                     ACCOMODATION
@@ -53,38 +44,13 @@
                         <li><hr class="dropdown-divider"></li>
                     </ul>
                 </div>
-                <!--ul class="dropdown-menu" >
-                    <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">LUXURY ROOM</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">FAMILY ROOMS</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                     <li><a class="dropdown-item" href="#">LUXURY SUITE</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                     <li><a class="dropdown-item" href="#">JUNIOR SUITE</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">MOUNTBATTEN SUITE</a></li>
-                    <li><hr class="dropdown-divider"></li>
-
-                </ul-->
                 </li>
 
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
-                    <ul>
-                        <li>Royal Pavilion Restuar</li>
-                    </ul>
+                    
                 </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="wedding_nav.php">WEDDING</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Offers.php">OFFERS</a>
-                </li>
+                              
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="contact.php">CONTACT US</a>
                 </li>
