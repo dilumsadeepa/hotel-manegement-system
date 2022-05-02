@@ -17,6 +17,18 @@
                  <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="location.php">LOCATION</a>
                 </li>
+<<<<<<< Updated upstream
+=======
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="wedding/wedding.html">WEDDING</a>
+                </li>
+>>>>>>> Stashed changes
                 <li class="nav-item">
                 <!--a class="nav-link active" aria-current="page" href="accomodation.php" >
                     ACCOMODATION
