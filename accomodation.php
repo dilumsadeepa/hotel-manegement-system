@@ -8,15 +8,11 @@
     <title>The paradise Inn</title>
 
     <!-- style sheet -->
-    <link rel="stylesheet"  href="public/css/style.css">
-    <link rel="stylesheet"  href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
 
     <!-- javascript -->
-
-
-    <script src="public/js/bootstrap.bundle.min.js">
-    	
-    </script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,
