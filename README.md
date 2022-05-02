@@ -30,6 +30,16 @@ The curd operation is in all sections.
 
 Install 
 
-clone or Download this repositorie to server folder (www/htdocs).
-Create Database "hotel".
+1. clone or Download this repositorie to server folder (www/htdocs).
+2. Create Database "hotel".
+3. Change file in "database/database.php"
+
+    $servername = 'localhost';
+    $username = 'root';
+    $password = '';
+    $db = 'hotel';
+
+4. change mysql username and password
+5. Import hotel.sql file to database.
+6. Finish
  
