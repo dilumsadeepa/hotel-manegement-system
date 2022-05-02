@@ -35,10 +35,10 @@ Install
 3. Change file in "database/database.php"
     <br>
     <code>
-        $servername = 'localhost';
-        $username = 'root';
-        $password = '';
-        $db = 'hotel';
+        $servername = 'localhost'; <br>
+        $username = 'root'; <br>
+        $password = ''; <br>
+        $db = 'hotel'; <br>
     </code>
     <br>
 
