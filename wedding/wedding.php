@@ -88,7 +88,7 @@
 									<span class="by">by Admin</span>
 									<span class="posted_date">Apr. 15th</span>
 									<span class="comment"><a href="">22<i class="icon-bubble2"></i></a></span>
-									<p>We have modern photo locations in outside of the hotel and the inside. </p>
+									<p>We have modern photo locations in outside of the hotel and the inside </p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -103,7 +103,7 @@
 									<span class="by">by Admin</span>
 									<span class="posted_date">Apr. 15th</span>
 									<span class="comment"><a href="">22<i class="icon-bubble2"></i></a></span>
-									<p>Both Avinka Grand and Classic halls have unique interior look.</p>
+									<p>Both Avinka Grand and Classic halls have unique interior look</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -119,7 +119,7 @@
 									<span class="by">by Admin</span>
 									<span class="posted_date">Apr. 20th</span>
 									<span class="comment"><a href="">22<i class="icon-bubble2"></i></a></span>
-									<p>You can celebrate your dream wedding day in our modern looking reception hall. Also we have well trained staff. We have two banquets. They are Avinka Grand and Avinka Classic.</p>
+									<p>You can celebrate your dream wedding day in our modern looking reception hall</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -128,14 +128,14 @@
 					<div class="clearfix visible-lg-block visible-md-block"></div>
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/cover_bg_1.jpg" alt=""></a>
+							<a href="#"><img class="img-responsive" src="images/gallery-4.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#">The Wedding Celebration</a></h3>
+									<h3><a href="#">Drink Celebration</a></h3>
 									<span class="by">by Admin</span>
 									<span class="posted_date">Apr. 15th</span>
 									<span class="comment"><a href="">22<i class="icon-bubble2"></i></a></span>
-									<p>Rooms come with comfortable beds, wooden table and chairs, tiled floor, well maintained attached bathroom with hot water.</p>
+									<p>Rooms come with comfortable beds, wooden table and chairs, tiled floor,</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -144,10 +144,10 @@
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/cover_bg_2.jpg" alt=""></a>
+							<a href="#"><img class="img-responsive" src="images/groom-men-1.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#">Preparation of Wedding</a></h3>
+									<h3><a href="#">Decaration Wedding</a></h3>
 									<span class="by">by Admin</span>
 									<span class="posted_date">Apr. 15th</span>
 									<span class="comment"><a href="">22<i class="icon-bubble2"></i></a></span>
@@ -159,14 +159,14 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="fh5co-blog animate-box">
-							<a href="#"><img class="img-responsive" src="images/cover_bg_3.jpg" alt=""></a>
+							<a href="#"><img class="img-responsive" src="images/gallery-2.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#">Party Night</a></h3>
+									<h3><a href="#">Modern Wedding</a></h3>
 									<span class="by">by Admin</span>
 									<span class="posted_date">Apr. 20th</span>
 									<span class="comment"><a href="">22<i class="icon-bubble2"></i></a></span>
-									<p>Our newest and largest banquet, Avinka Grand offers you state-of-the-art facilities with a five-star elegance to make your dream picture perfect.</p>
+									<p>Our newest and largest banquet, Avinka Grand offers you </p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -178,7 +178,7 @@
 
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4 text-center animate-box">
-						<a href="#" class="btn btn-primary btn-lg">Click Venue Wedding Hall</a>
+						<a href="form/index.php" class="btn btn-primary btn-lg">Click Venue Wedding Hall</a>
 					</div>
 				</div>
 
