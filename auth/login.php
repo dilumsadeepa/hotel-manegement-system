@@ -29,7 +29,7 @@
             <div class="col-sm-1"></div>
 
             <div class="col-sm-6">
-                <a href="register.php" class="btn btn-info"> If you haven't account, Plase Regiser</a>
+                <a href="register.php" class="btn btn-info"> If you haven't account, Please Regiser</a>
                 <img class="img-fluid" src="../public/img/regi.png" alt="regiser image">
             </div>
 
