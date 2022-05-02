@@ -65,7 +65,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="wedding.php">WEDDING</a>
+                <a class="nav-link active" aria-current="page" href="wedding_nav.php">WEDDING</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="Facilities.php">FACILITIES</a>

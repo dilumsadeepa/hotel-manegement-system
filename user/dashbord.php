@@ -57,7 +57,7 @@
   if (isset($_SESSION["name"])) {
     echo $_SESSION["name"];
   }else{
-    header("Location: ../auth/login.php");
+   // header("Location: ../auth/login.php");
   }
   ?></h5>
   <img src="../public/img/menu.png" width="40px" class="menu-icon" id="micon" onclick="showmenu()">
