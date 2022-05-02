@@ -21,7 +21,7 @@
                 <a class="nav-link active" aria-current="page" href="Dining.php">DINING</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="wedding/wedding.html">WEDDING</a>
+                <a class="nav-link active" aria-current="page" href="wedding/wedding.php">WEDDING</a>
                 </li>
                 
                 <div class="dropdown">
