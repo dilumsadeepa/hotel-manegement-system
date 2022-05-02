@@ -27,18 +27,38 @@ if (isset($_SESSION['message'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wedding</title>
 
-    <!-- style sheet -->
+  
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/bootstrap.min.css">
 
-    <!-- javascript -->
+   
     <script src="../public/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
     <?php include "dashbord.php"; ?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("public/img/wedi.jpg")}
+.bgimg2 {background-image: url("public/img/reg.jpg")}
+</style>
+
 
     <section class="content">
         <br>
@@ -47,7 +67,7 @@ if (isset($_SESSION['message'])) {
         </div>
         <br>
         <div class="container chbox">
-            <!-- form to check rooms -->
+           
             <form>
                 <div class="row">
                     <div class="col">
