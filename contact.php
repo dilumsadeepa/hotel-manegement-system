@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>CONTENT</title>
+    <title>CONTENT US</title>
 
     <!-- style sheet -->
     <link rel="stylesheet" href="public/css/style.css">
@@ -40,6 +40,13 @@ wght@300;400;500;700&family=Monoton&family=Pacifico&family=Tapestry&display=swap
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
+
+                    <tr height="350">
+<th>
+<iframe src="https://www.google.com/maps/d/embed?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&ehbc=2E312F" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="1024" height="350"></iframe>
+</th>
+
+
                     <div class="carousel-inner">
                         <div class="carousel-item active slid-box">
                             <img src="public/img/para9.jpg" class="d-block w-100" alt="...">
